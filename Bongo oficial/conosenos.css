@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+header{
+    background-color: #080808;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link:hover{
+    color: purple;
+} 
+
+.logo{
+    width:280px;
+    margin-left:10px;
+}
+
+body{
+    background-image: url(img/fondo\ bongo.png);
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.comentarios .caja-contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.comentarios .caja-contenedor .caja {     
+    background: white;
+    margin: 1rem;
+    text-align: center;
+    position: relative;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+}
+
+.comentarios .caja-contenedor .caja .fa-atom {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 8rem;
+    color: blueviolet;
+    opacity: .3;
+}
+
+.comentarios .caja-contenedor .caja .users img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+} 
+
+.comentarios .caja-contenedor .caja .users h3{
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+.comentarios .caja-contenedor .caja .users .stars i{
+    color:blueviolet;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.comentarios .caja-contenedor .caja .comentarios{
+    color: #666;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
